@@ -1,0 +1,16 @@
+title: '개인정보 처리방침'
+description: '앱 개인정보 처리방침 페이지'
+baseurl: ''
+url: ''
+
+# Jekyll 설정
+markdown: kramdown
+highlighter: rouge
+
+# GitHub Pages 설정
+plugins:
+    - jekyll-feed
+    - jekyll-sitemap
+
+# 테마 설정 (선택사항)
+theme: minima
