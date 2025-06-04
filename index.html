@@ -3,223 +3,404 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>개인정보 처리방침</title>
+        <title>티노스 - 개인정보처리방침</title>
         <script src="https://cdn.tailwindcss.com"></script>
-        <meta name="description" content="앱 개인정보 처리방침" />
+        <meta name="description" content="티노스 앱 개인정보처리방침" />
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                line-height: 1.6;
+            }
+            .table-container {
+                overflow-x: auto;
+            }
+            .privacy-table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 16px 0;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                overflow: hidden;
+            }
+            .privacy-table th,
+            .privacy-table td {
+                padding: 12px;
+                text-align: center;
+                border-bottom: 1px solid #ddd;
+                border-right: 1px solid #ddd;
+            }
+            .privacy-table th {
+                background-color: #f0f0f0;
+                font-weight: bold;
+                color: #333;
+            }
+            .privacy-table td {
+                color: #555;
+                line-height: 1.4;
+            }
+            .privacy-table th:last-child,
+            .privacy-table td:last-child {
+                border-right: none;
+            }
+            .privacy-table tr:last-child th,
+            .privacy-table tr:last-child td {
+                border-bottom: none;
+            }
+            .contact-btn {
+                display: inline-block;
+                padding: 12px 24px;
+                background: white;
+                border: 2px solid #1976d2;
+                color: #1976d2;
+                text-decoration: none;
+                border-radius: 8px;
+                margin-top: 8px;
+                transition: all 0.2s;
+            }
+            .contact-btn:hover {
+                background: #1976d2;
+                color: white;
+            }
+        </style>
     </head>
     <body class="bg-gray-50 text-gray-800">
         <div class="max-w-4xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
             <div class="bg-white shadow-lg rounded-lg overflow-hidden">
                 <div class="bg-blue-600 px-6 py-4">
-                    <h1 class="text-2xl font-bold text-white">개인정보 처리방침</h1>
+                    <h1 class="text-2xl font-bold text-white text-center">개인정보처리방침</h1>
+                    <p class="text-blue-100 text-center mt-2">최종 업데이트: 2025년 06월 05일</p>
                 </div>
 
                 <div class="px-6 py-8 space-y-8">
-                    <div class="text-sm text-gray-600 mb-6">
-                        <p><strong>시행일자:</strong> 2025년 6월 2일</p>
-                        <p><strong>최종 수정일:</strong> 2025년 6월 2일</p>
-                    </div>
-
-                    <section class="space-y-4">
-                        <h2 class="text-xl font-semibold text-gray-900 border-b border-gray-200 pb-2">
-                            1. 개인정보의 처리목적
-                        </h2>
-                        <div class="prose text-gray-700">
-                            <p>
-                                본 앱은 다음의 목적을 위하여 개인정보를 처리합니다. 처리하고 있는 개인정보는 다음의 목적
-                                이외의 용도로는 이용되지 않으며, 이용 목적이 변경되는 경우에는 개인정보보호법 제18조에
-                                따라 별도의 동의를 받는 등 필요한 조치를 이행할 예정입니다.
-                            </p>
-                            <ul class="list-disc ml-6 mt-3 space-y-1">
-                                <li>서비스 제공 및 앱 기능 이용</li>
-                                <li>이용자 식별 및 회원관리</li>
-                                <li>서비스 개선 및 맞춤형 서비스 제공</li>
-                                <li>고객 문의 및 고객서비스 제공</li>
-                            </ul>
-                        </div>
-                    </section>
-
-                    <section class="space-y-4">
-                        <h2 class="text-xl font-semibold text-gray-900 border-b border-gray-200 pb-2">
-                            2. 처리하는 개인정보의 항목
-                        </h2>
-                        <div class="prose text-gray-700">
-                            <p>본 앱은 다음과 같은 개인정보를 처리합니다:</p>
-                            <div class="bg-gray-50 p-4 rounded-lg mt-3">
-                                <h3 class="font-medium mb-2">필수항목:</h3>
-                                <ul class="list-disc ml-6 space-y-1">
-                                    <li>이메일 주소</li>
-                                    <li>기기 정보 (기기 고유 식별자, OS 버전)</li>
-                                    <li>앱 사용 로그 (접속 시간, 이용 기록)</li>
-                                </ul>
-                            </div>
-                            <div class="bg-blue-50 p-4 rounded-lg mt-3">
-                                <h3 class="font-medium mb-2">선택항목:</h3>
-                                <ul class="list-disc ml-6 space-y-1">
-                                    <li>프로필 사진</li>
-                                    <li>닉네임</li>
-                                    <li>위치 정보 (서비스 이용 시)</li>
-                                    <li>갤러리</li>
-                                    <li>알림 설정</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section class="space-y-4">
-                        <h2 class="text-xl font-semibold text-gray-900 border-b border-gray-200 pb-2">
-                            3. 개인정보의 처리 및 보유기간
-                        </h2>
-                        <div class="prose text-gray-700">
-                            <p>
-                                개인정보는 법령에 따른 개인정보 보유·이용기간 또는 정보주체로부터 개인정보를 수집시에
-                                동의받은 개인정보 보유·이용기간 내에서 처리·보유합니다.
-                            </p>
-                            <div class="bg-yellow-50 border border-yellow-200 p-4 rounded-lg mt-3">
-                                <p>
-                                    <strong>보유기간:</strong> 회원 탈퇴 시까지 (단, 관련 법령에 따라 보존이 필요한 경우
-                                    해당 기간 동안 보존)
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section class="space-y-4">
-                        <h2 class="text-xl font-semibold text-gray-900 border-b border-gray-200 pb-2">
-                            4. 개인정보의 제3자 제공
-                        </h2>
-                        <div class="prose text-gray-700">
-                            <p>
-                                본 앱은 원칙적으로 이용자의 개인정보를 제3자에게 제공하지 않습니다. 다만, 다음의
-                                경우에는 예외로 합니다:
-                            </p>
-                            <ul class="list-disc ml-6 mt-3 space-y-1">
-                                <li>이용자가 사전에 동의한 경우</li>
-                                <li>
-                                    법령의 규정에 의하거나, 수사 목적으로 법령에 정해진 절차와 방법에 따라 수사기관의
-                                    요구가 있는 경우
-                                </li>
-                            </ul>
-                        </div>
-                    </section>
-
-                    <section class="space-y-4">
-                        <h2 class="text-xl font-semibold text-gray-900 border-b border-gray-200 pb-2">
-                            5. 개인정보처리의 위탁
-                        </h2>
-                        <div class="prose text-gray-700">
-                            <p>
-                                본 앱은 원활한 개인정보 업무처리를 위하여 다음과 같이 개인정보 처리업무를 위탁하고
-                                있습니다:
-                            </p>
-                            <div class="bg-gray-50 p-4 rounded-lg mt-3">
-                                <p><strong>위탁업체:</strong> 클라우드 서비스 제공업체 (AWS, Google Cloud 등)</p>
-                                <p><strong>위탁업무:</strong> 데이터 저장 및 관리</p>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section class="space-y-4">
-                        <h2 class="text-xl font-semibold text-gray-900 border-b border-gray-200 pb-2">
-                            6. 정보주체의 권리·의무 및 행사방법
-                        </h2>
-                        <div class="prose text-gray-700">
-                            <p>이용자는 개인정보주체로서 다음과 같은 권리를 행사할 수 있습니다:</p>
-                            <ul class="list-disc ml-6 mt-3 space-y-1">
-                                <li>개인정보 처리현황 통지 요구</li>
-                                <li>개인정보 열람 요구</li>
-                                <li>개인정보 정정·삭제 요구</li>
-                                <li>개인정보 처리정지 요구</li>
-                            </ul>
-                            <div class="bg-blue-50 border border-blue-200 p-4 rounded-lg mt-3">
-                                <p>
-                                    <strong>권리 행사 방법:</strong> 앱 내 설정 메뉴 또는 고객센터를 통해 요청하실 수
-                                    있습니다.
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section class="space-y-4">
-                        <h2 class="text-xl font-semibold text-gray-900 border-b border-gray-200 pb-2">
-                            7. 개인정보의 안전성 확보조치
-                        </h2>
-                        <div class="prose text-gray-700">
-                            <p>
-                                본 앱은 개인정보보호법 제29조에 따라 다음과 같이 안전성 확보에 필요한 기술적/관리적 및
-                                물리적 조치를 하고 있습니다:
-                            </p>
-                            <ul class="list-disc ml-6 mt-3 space-y-1">
-                                <li>개인정보 취급 직원의 최소화 및 교육</li>
-                                <li>개인정보의 암호화</li>
-                                <li>해킹 등에 대비한 기술적 대책</li>
-                                <li>개인정보에 대한 접근 제한</li>
-                            </ul>
-                        </div>
-                    </section>
-
-                    <section class="space-y-4">
-                        <h2 class="text-xl font-semibold text-gray-900 border-b border-gray-200 pb-2">
-                            8. 개인정보보호책임자
-                        </h2>
-                        <div class="prose text-gray-700">
-                            <p>
-                                개인정보 처리에 관한 업무를 총괄해서 책임지고, 개인정보 처리와 관련한 정보주체의
-                                불만처리 및 피해구제 등을 위하여 아래와 같이 개인정보보호책임자를 지정하고 있습니다:
-                            </p>
-                            <div class="bg-gray-50 p-4 rounded-lg mt-3">
-                                <p><strong>개인정보보호책임자</strong></p>
-                                <p>성명: 표창영</p>
-                                <p>연락처: game1425@naver.com</p>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section class="space-y-4">
-                        <h2 class="text-xl font-semibold text-gray-900 border-b border-gray-200 pb-2">
-                            9. 개인정보 처리방침 변경
-                        </h2>
-                        <div class="prose text-gray-700">
-                            <p>
-                                이 개인정보처리방침은 시행일로부터 적용되며, 법령 및 방침에 따른 변경내용의 추가, 삭제
-                                및 정정이 있는 경우에는 변경사항의 시행 7일 전부터 공지사항을 통하여 고지할 것입니다.
-                            </p>
-                        </div>
-                    </section>
-
-                    <section class="space-y-4">
-                        <h2 class="text-xl font-semibold text-gray-900 border-b border-gray-200 pb-2">
-                            10. 개인정보의 열람청구
-                        </h2>
-                        <div class="prose text-gray-700">
-                            <p>
-                                정보주체는 개인정보보호법 제35조에 따른 개인정보의 열람 청구를 아래의 부서에 할 수
-                                있습니다:
-                            </p>
-                            <div class="bg-green-50 border border-green-200 p-4 rounded-lg mt-3">
-                                <p><strong>개인정보 열람청구 접수·처리 부서</strong></p>
-                                <p>부서명: 개발팀</p>
-                                <p>담당자: 표창영</p>
-                                <p>연락처: game1425@naver.com</p>
-                            </div>
-                        </div>
-                    </section>
-
-                    <div class="bg-red-50 border border-red-200 p-4 rounded-lg">
-                        <h3 class="font-medium text-red-800 mb-2">주의사항</h3>
-                        <p class="text-red-700 text-sm">
-                            이 개인정보 처리방침은 템플릿이므로, 실제 앱의 기능과 데이터 처리 방식에 맞게 수정하여
-                            사용하시기 바랍니다. 특히 연락처 정보는 실제 정보로 업데이트해야 합니다.
+                    <div class="prose text-gray-700 space-y-4">
+                        <p>
+                            티노스는 회원님의 개인정보를 중요시하며, 개인정보의 보호와 관련하여 정보통신망 이용 촉진 및
+                            정보보호 등에 관한 법률, 개인정보 보호법, 전기통신사업법, 통신비밀보호법 등 개인정보와
+                            관련된 법령 상의 개인정보 보호 규정 및 방송통신위원회가 제정한 개인정보보호지침을 준수하고
+                            있습니다.
+                        </p>
+                        <p>
+                            회사는 개인정보 처리방침을 통해 회원님들의 개인정보가 남용되거나 유출되지 않도록 최선을 다할
+                            것이며, 회원님께서 제공하시는 개인정보가 어떠한 용도와 방식으로 이용되고 있으며
+                            개인정보보호를 위해 어떠한 조치를 취하고 있는지 알려드립니다.
+                        </p>
+                        <p>
+                            단, 본 개인정보 처리방침은 정부의 법령 및 지침의 변경, 회사 약관 및 내부 정책의 변경 또는 더
+                            나은 서비스의 제공을 위하여 변경될 수 있습니다. 개인정보 처리방침을 개정하는 경우
+                            어플리케이션을 통하여 공지합니다. 회원님께서는 어플리케이션 사용 시 수시로 그 내용을
+                            확인하시기 바랍니다.
                         </p>
                     </div>
-                </div>
 
-                <div class="bg-gray-100 px-6 py-4">
-                    <p class="text-sm text-gray-600 text-center">
-                        본 개인정보 처리방침은 2025년 6월 2일부터 적용됩니다.
-                    </p>
+                    <hr class="border-gray-200" />
+
+                    <section class="space-y-4">
+                        <h2 class="text-xl font-semibold text-gray-900 border-b border-gray-200 pb-2">
+                            01. 개인정보 수집에 대한 동의
+                        </h2>
+                        <div class="prose text-gray-700">
+                            <p>
+                                회사는 정보주체가 회사의 개인정보처리방침 또는 개인정보 수집 동의, 이용약관의 내용에
+                                대하여 「동의」버튼 또는 「취소」버튼을 클릭할 수 있는 절차 또는 체크박스 유무를
+                                마련하여, 「동의」버튼 또는 체크박스 체크 시 개인정보 수집에 대해 동의한 것으로 봅니다.
+                            </p>
+                        </div>
+                    </section>
+
+                    <section class="space-y-4">
+                        <h2 class="text-xl font-semibold text-gray-900 border-b border-gray-200 pb-2">
+                            02. 개인정보의 수집목적 및 이용목적
+                        </h2>
+                        <div class="prose text-gray-700 space-y-4">
+                            <p>
+                                "개인정보"라 함은 개인정보 보호법 제2조 제1호에 따라 살아 있는 개인에 관한 정보로서
+                                성명, 주민등록번호 및 연락처 등을 통하여 개인을 알아볼 수 있는 정보(해당 정보만으로는
+                                특정 개인을 알아볼 수 없더라도 다른 정보와 쉽게 결합하여 알아볼 수 있는 것을 포함한다)를
+                                말합니다. 회사는 이용자의 사전 동의 없이는 이용자의 개인 정보를 공개하지 않으며, 수집된
+                                정보는 아래와 같이 이용하고 있습니다.
+                            </p>
+                            <div class="ml-4 space-y-2">
+                                <p class="text-gray-700">
+                                    ① 회원가입 의사 확인, 이용자 식별, 회원 탈퇴 의사 확인 등 회원 관리를 위해 활용
+                                </p>
+                                <p class="text-gray-700">
+                                    ② 이용자와 약속한 서비스 제공, 서비스 제공에 따른 본인 인증, 문의사항 또는 불만 처리
+                                    및 회신, 공지사항 전달에 활용
+                                </p>
+                                <p class="text-gray-700">
+                                    ③ 법령 및 이용약관을 위반하는 회원에 대한 이용 제한 조치, 부정 이용 행위를 포함하여
+                                    서비스의 원활한 운영에 지장을 주는 행위, 비인가 행위에 대한 방지 및 제재, 계정도용
+                                    방지, 분쟁 조정을 위한 기록보존 등 이용자 보호 및 안전한 서비스 운영에 활용
+                                </p>
+                                <p class="text-gray-700">
+                                    ④ 서비스 이용 성향, 관심, 이용기록 분석 등을 반영한 신규 서비스 개발 및 맞춤형
+                                    서비스 제공 등 서비스 개선에 활용
+                                </p>
+                                <p class="text-gray-700">
+                                    ⑤ 이벤트 정보 및 참여기회 제공, 광고성 정보 제공 등 마케팅 및 프로모션에 활용
+                                </p>
+                            </div>
+                            <p>
+                                위의 내용에 대한 동의를 거부할 수 있습니다. 다만, 이에 대한 동의를 하지 않을 경우에는
+                                신규 서비스나 이벤트 및 프로모션에 대한 안내를 받지 못할 수 있음을 알려 드립니다.
+                            </p>
+                        </div>
+                    </section>
+
+                    <section class="space-y-4">
+                        <h2 class="text-xl font-semibold text-gray-900 border-b border-gray-200 pb-2">
+                            03. 수집하는 개인정보 항목 및 수집방법
+                        </h2>
+
+                        <h3 class="text-lg font-medium text-gray-800">가. 수집하는 개인정보의 항목</h3>
+                        <p class="text-gray-700">
+                            ① 회사는 회원가입, 서비스 이용, 원활한 고객상담등 아래와 같은 개인정보를 수집하고 있습니다.
+                        </p>
+
+                        <div class="table-container">
+                            <table class="privacy-table">
+                                <thead>
+                                    <tr>
+                                        <th>서비스</th>
+                                        <th>수집항목</th>
+                                        <th>보유 및 이용기간</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>회원가입</td>
+                                        <td>[필수] 아이디, 이메일, 비밀번호, 이름, 학교및 소속, 지위, 지도자</td>
+                                        <td>회원 탈퇴 시 즉시 삭제</td>
+                                    </tr>
+                                    <tr>
+                                        <td>경기결과</td>
+                                        <td>[필수] 이름, 학교및 소속</td>
+                                        <td>3개월</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <p class="text-gray-700">
+                            ② 서비스 이용과정이나 사업처리 과정에서 아래와 같은 정보들이 자동으로 생성되어 수집될 수
+                            있습니다.
+                        </p>
+                        <p class="text-gray-700 ml-4">
+                            • IP Address, 쿠키, 방문 일시, 서비스 이용 기록 ('봄 캘린더' 애플리케이션 버전 및 가입일,
+                            기기정보 (ADID 및 IDFA 등 기기고유식별값, OS버전, 단말기 모델명 등)
+                        </p>
+
+                        <h3 class="text-lg font-medium text-gray-800 mt-6">나. 개인정보 수집방법</h3>
+                        <div class="space-y-2">
+                            <p class="text-gray-700">
+                                회사는 다음과 같은 방법으로 개인정보를 수집하며 정보의 주체의 사전동의 없이는 정보주체의
+                                개인정보를 공개하지 않습니다.
+                            </p>
+                            <p class="text-gray-700 ml-4">• '티노스' 서비스 이용</p>
+                        </div>
+                    </section>
+
+                    <section class="space-y-4">
+                        <h2 class="text-xl font-semibold text-gray-900 border-b border-gray-200 pb-2">
+                            04. 수집하는 개인정보의 보유 및 이용기간
+                        </h2>
+                        <div class="prose text-gray-700 space-y-4">
+                            <p>
+                                회사가 수집하는 개인정보의 보유 및 이용기간은 정보주체가 회사에서 제공하는 서비스를
+                                이용하는 동안 회원 탈퇴를 요청하거나 개인정보의 수집·이용 등에 대한 동의를 철회할 때까지
+                                보존합니다.
+                            </p>
+                            <p>
+                                다만, 아래의 "06. 정보주체 자신의 개인정보 관리(열람, 정정, 삭제 등)에 관한 사항" 에서
+                                설명한 절차와 방법에 따라 회원 본인이 직접 삭제(탈퇴)를 요청한 경우에는 재생할 수 없는
+                                방법에 의하여 디스크에서 완전히 삭제하며 추후 열람이나 이용이 불가능한 상태로
+                                처리됩니다.
+                            </p>
+                            <p>
+                                그리고 "03. 수집하는 개인정보 항목 및 수집방법"에서와 같이 일시적인 목적 (설문조사,
+                                이벤트, 본인확인 등)으로 입력 받은 개인정보는 그 목적이 달성된 이후에는 동일한 방법으로
+                                사후 재생이 불가능한 상태로 처리됩니다.
+                            </p>
+                            <p>
+                                또한 「상법」, 「전자상거래 등에서의 소비자보호에 관한 법률」 등 관계법령의 규정에
+                                의하여 보존할 필요가 있는 경우 회사는 관계법령에서 정한 일정한 기간 동안 회원정보를
+                                보관합니다. 이 경우 보관하는 정보를 그 보관의 목적으로만 이용하며 보존기간은 아래와
+                                같습니다.
+                            </p>
+                        </div>
+
+                        <div class="table-container">
+                            <table class="privacy-table">
+                                <thead>
+                                    <tr>
+                                        <th>보유 목적</th>
+                                        <th>보유항목</th>
+                                        <th>보유근거</th>
+                                        <th>보유 및 이용기간</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>회원가입</td>
+                                        <td>로그기록, 접속지 정보 등</td>
+                                        <td>「통신비밀보호법」</td>
+                                        <td>3개월</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <section class="space-y-4">
+                        <h2 class="text-xl font-semibold text-gray-900 border-b border-gray-200 pb-2">
+                            05. 정보주체의 권리, 의무 및 그 행사방법
+                        </h2>
+                        <div class="prose text-gray-700 space-y-4">
+                            <p>정보주체는 언제든지 개인정보 열람, 정정, 삭제, 처리정지 등을 요구할 수 있습니다.</p>
+                            <p>
+                                권리 행사는 회사에 대해 이메일(game1425@donkinc.co.kr)을 통하여 하실 수 있으며 회사는
+                                이에 대해 지체없이 조치하겠습니다.
+                            </p>
+                            <p>
+                                권리 행사는 정보주체의 법정대리인이나 위임을 받은 자 등 대리인을 통하여 하실 수
+                                있습니다. 이 경우 개인정보 보호법 시행규칙 별지 제11호 서식에 따른 위임장을 제출하셔야
+                                합니다.
+                            </p>
+                            <p>
+                                정보주체가 개인정보의 오류 등에 대한 정정 또는 삭제를 요구한 경우에는 회사는 정정 또는
+                                삭제를 완료할 때까지 당해 개인정보를 이용하거나 제공하지 않습니다.
+                            </p>
+                            <p>
+                                정보주체는 자신의 개인정보를 조회하고 수정할 수 있으며, 회원가입 등을 통해 개인정보의
+                                수집, 이용에 대해 동의한 내용을 회원탈퇴 등을 통해 동의 철회할 수 있습니다.
+                            </p>
+                        </div>
+                    </section>
+
+                    <section class="space-y-4">
+                        <h2 class="text-xl font-semibold text-gray-900 border-b border-gray-200 pb-2">
+                            06. 개인정보 자동 수집 장치의 설치/운영 및 거부에 관한 사항
+                        </h2>
+                        <div class="prose text-gray-700 space-y-4">
+                            <p>
+                                회사는 이용자들에게 특화된 맞춤서비스를 제공하기 위해서 이용자들의 정보를 저장하고
+                                수시로 불러오는 '쿠키(cookie)'를 사용합니다. 쿠키는 웹사이트를 운영하는데 이용되는
+                                서버(HTTP)가 이용자의 컴퓨터 브라우저에게 보내는 소량의 정보이며 이용자들의 PC
+                                컴퓨터내의 하드디스크에 저장되기도 합니다.
+                            </p>
+
+                            <h3 class="text-lg font-medium text-gray-800">쿠키의 사용 목적</h3>
+                            <p>
+                                이용자들이 방문한 회사의 각 서비스와 웹 사이트들에 대한 방문 및 이용형태, 인기 검색어,
+                                보안접속 여부, 뉴스편집, 이용자 규모 등을 파악하여 이용자에게 최적화된 정보 제공을
+                                위하여 사용합니다.
+                            </p>
+
+                            <h3 class="text-lg font-medium text-gray-800">쿠키의 설치·운영 및 거부</h3>
+                            <div class="ml-4 space-y-2">
+                                <p>
+                                    ① 이용자는 쿠키 설치에 대한 선택권을 가지고 있습니다. 따라서, 이용자는
+                                    웹브라우저에서 옵션을 설정함으로써 모든 쿠키를 허용하거나, 쿠키가 저장될 때마다
+                                    확인을 거치거나, 아니면 모든 쿠키의 저장을 거부할 수도 있습니다.
+                                </p>
+                                <p>
+                                    ② 설정방법 예(인터넷 익스플로어 경우 : 웹 브라우저 상단의 도구 > 인터넷 옵션 >
+                                    개인정보)
+                                </p>
+                                <p>
+                                    ③ 다만, 쿠키의 저장을 거부할 경우에는 로그인이 필요한 일부 서비스는 이용에 어려움이
+                                    있을 수 있습니다.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="space-y-4">
+                        <h2 class="text-xl font-semibold text-gray-900 border-b border-gray-200 pb-2">
+                            07. 개인정보 보호책임자 및 담당부서
+                        </h2>
+                        <div class="prose text-gray-700 space-y-4">
+                            <p>
+                                회사는 개인정보 처리에 관한 업무를 총괄해서 책임지고, 개인정보 처리와 관련한 정보주체의
+                                문의 및 불만 처리 등을 위하여 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.
+                            </p>
+
+                            <h3 class="text-lg font-medium text-gray-800">개인정보 보호책임자</h3>
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <div class="ml-4 space-y-1">
+                                    <p>• 성명: 노형준</p>
+                                    <p>• 직급: 나사렛대학교 교수</p>
+                                    <p>• 연락처: nasalesd@gmail.com</p>
+                                </div>
+                            </div>
+
+                            <p>
+                                정보주체께서는 회사의 서비스를 이용하시면서 발생한 모든 개인정보 보호 관련 문의,
+                                불만처리, 피해구제 등에 관한 사항을 개인정보 보호책임자 및 담당부서로 문의하실 수
+                                있습니다. 또한 개인정보 보호법 제 35조에 따른 개인정보의 열람청구 가능합니다. 회사는
+                                정보주체의 문의에 대해 지체 없이 답변 및 처리해드릴 것입니다.
+                            </p>
+                        </div>
+                    </section>
+
+                    <section class="space-y-4">
+                        <h2 class="text-xl font-semibold text-gray-900 border-b border-gray-200 pb-2">
+                            08. 기타 개인정보침해에 대한 신고 및 상담
+                        </h2>
+                        <div class="prose text-gray-700 space-y-4">
+                            <p>
+                                정보주체는 개인정보침해로 인한 구제를 받기 위해 개인정보분쟁조정위원회, 개인정보침해센터
+                                등에 분쟁해결이나 상담등을 신청할 수 있습니다. 이 밖에 기타 개인정보 침해의 신고 및
+                                상담에 대해서는 아래의 기관에 문의할 수 있습니다.
+                            </p>
+
+                            <div class="ml-4 space-y-2">
+                                <p>• 개인정보 침해신고센터: (국번없이) 118 / privacy.kisa.or.kr</p>
+                                <p>• 대검찰청 사이버범죄수사단: (국번없이) 1301 / www.spo.go.kr</p>
+                                <p>• 경찰청 사이버안전국: (국번없이) 182 / www.cyber.go.kr</p>
+                                <p>• 전자거래분쟁조정위원회: 1661-5714 / https://www.ecmc.or.kr</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="space-y-4">
+                        <h2 class="text-xl font-semibold text-gray-900 border-b border-gray-200 pb-2">
+                            09. 개인정보 처리방침의 변경 고지
+                        </h2>
+                        <div class="prose text-gray-700 space-y-2">
+                            <p>1. 해당 개인정보 처리방침은 2025.6.05부터 적용됩니다</p>
+                            <p>
+                                2. 개인정보처리방침은 시행일로부터 적용되며, 법령 및 방침에 따른 변경내용의 추가, 삭제
+                                및 정정이 있는 경우에는 변경사항의 시행 7일 전부터 어플리케이션을 통하여 고지할
+                                것입니다.
+                            </p>
+                        </div>
+                    </section>
+
+                    <hr class="border-gray-200" />
+
+                    <div class="text-center space-y-4">
+                        <h3 class="text-lg font-medium text-gray-800">문의사항이 있으시면 언제든지 연락해 주세요</h3>
+                        <a href="mailto:nasalesd@gmail.com" class="contact-btn"> 개인정보보호책임자 문의 </a>
+                    </div>
+
+                    <div class="text-center space-y-2 pt-8 border-t border-gray-200">
+                        <p class="text-sm text-gray-500">티노스 앱 v1.0.1</p>
+                        <p class="text-sm text-gray-500">© 2025 티노스. All rights reserved.</p>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const contactBtn = document.querySelector('.contact-btn');
+                if (contactBtn) {
+                    contactBtn.addEventListener('click', function (e) {
+                        window.location.href = 'mailto:nasalesd@gmail.com?subject=티노스 개인정보처리방침 문의';
+                    });
+                }
+            });
+        </script>
     </body>
 </html>
